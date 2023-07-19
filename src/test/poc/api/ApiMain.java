@@ -1,7 +1,7 @@
-package challenge.api;
+package poc.api;
 
-import challenge.api.factory.Person;
-import challenge.api.factory.PersonFull;
+import poc.api.factory.Person;
+import poc.api.factory.PersonFull;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;

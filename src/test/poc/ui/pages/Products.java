@@ -1,6 +1,6 @@
-package challenge.ui.pages;
+package poc.ui.pages;
 
-import challenge.ui.factory.DriverHelper;
+import poc.ui.factory.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

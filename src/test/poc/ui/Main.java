@@ -1,9 +1,9 @@
-package challenge.ui;
+package poc.ui;
 
-import challenge.ui.pages.CheckoutInformation;
-import challenge.ui.pages.Login;
-import challenge.ui.pages.Products;
-import challenge.ui.pages.ShoppingCart;
+import poc.ui.pages.CheckoutInformation;
+import poc.ui.pages.Login;
+import poc.ui.pages.Products;
+import poc.ui.pages.ShoppingCart;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;

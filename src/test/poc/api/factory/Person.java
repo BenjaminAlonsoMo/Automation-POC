@@ -1,4 +1,4 @@
-package challenge.api.factory;
+package poc.api.factory;
 
 import lombok.Getter;
 import lombok.Setter;

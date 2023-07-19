@@ -18,3 +18,6 @@ This is the class where you can run the UI Tests.<br>
 ## Driver package
 
 It has the chrome driver for MAC<br>
+
+
+xattr -d com.apple.quarantine chromedriver 
