@@ -1,0 +1,12 @@
+target
+.idea
+*.iml
+*.log
+*.txt
+*.DS_Store
+.classpath
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.project
+target/**
+test-output/**
