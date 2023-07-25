@@ -2,6 +2,7 @@ package poc.ui.pages;
 
 import static org.testng.Assert.assertEquals;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import poc.ui.factory.DriverHelper;
@@ -17,6 +18,7 @@ public class Products extends DriverHelper {
     super(driver);
   }
 
+  @Step("Verify Product is displayed")
   public void verifyProductIsDisplayed(String product) {
     By finalProductImg = By.cssSelector(productImg.replaceAll("#", product));
     By finalProductTitle = By.xpath(productTitle.replaceAll("#", product));

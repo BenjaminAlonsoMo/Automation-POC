@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite for Pluto TV Unified WebTV Application" parallel="classes"
+       thread-count="1">
+    <test name="Pluto TV Unified  WebTV Functional Tests">
+        <classes>
+            <class name="poc.ui.Main"/>
+        </classes>
+    </test>
+</suite>
